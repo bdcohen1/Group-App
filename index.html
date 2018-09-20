@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Simulator</title>
+        <meta name="description" content="A fun little weather simulator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onresize="ReloadDots()">
+        <div class="sky" id="sky">
+            <div id="sun">
+                    <div class="sunbeams">
+                        <div class="beam beam1"></div>
+                        <div class="beam beam2"></div>
+                        <div class="beam beam3"></div>
+                        <div class="beam beam4"></div>
+                        <div class="beam beam5"></div>
+                        <div class="beam beam6"></div>
+                        <div class="beam beam7"></div>
+                        <div class="beam beam8"></div>
+                    </div>
+                </div>
+            <div id="moon">
+                    <div class="crater crater1"></div>
+                    <div class="crater crater2"></div>
+                    <div class="crater crater3"></div>
+                    <div class="crater crater4"></div>
+                    <div class="crater crater5"></div>
+                </div>
+        </div>
+        <div class="ground" id="ground">
+            <div class="clock"></div>
+            <button onClick="dayToNight()">DAY to NIGHT</button>
+            <img class="Coop" src="img/Coop.svg">
+        </div>
+    </body>
+</html>
